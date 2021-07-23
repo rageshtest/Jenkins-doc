@@ -1,4 +1,4 @@
-This plugin allows users of AutonomIQ to trigger execution of suites via Jenkins
+This plugin allows users of [AutonomIQ](https://saucelabs.com/platform/low-code-testing) to trigger execution of suites via Jenkins
 
 # Configuration:
 
