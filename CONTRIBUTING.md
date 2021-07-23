@@ -8,7 +8,7 @@ There are multiple ways of getting involved:
 * Suggest a feature
 * Contribute code
 
-Below are a few guidelines we would like you to follow. If you need help, please reach out to us by opening an issue.
+Below are a few guidelines we would like you to follow. If you need help, please reach out to us by opening an ## issue link ????
 
 
 ## Report a bug
@@ -44,50 +44,50 @@ It is always best to discuss your plans beforehand, to ensure that your contribu
 * Your pull request must receive a 👍 from two maintainers
 
 
+## Check out code
 
-Check out code
 To get the code base, have git installed and run:
 
-$ git clone git@github.com:saucelabs/node-saucelabs.git
+$ git clone git@github.com:saucelabs/node-saucelabs.git  ????
 
 then ensure to install all project dependencies:
 
-$ cd node-saucelabs
-$ npm install
+$ cd node-saucelabs   ???
+$ npm install         ???
 
-##Build Project
+## Build Project
 
 To compile all TypeScript files, run:
 
-$ npm run build
+$ npm run build  ???
 
 In order to automatically re-compile the files when files change, you can use the watch command:
 
-$ npm run watch
+$ npm run watch  ???
 
-##Test Project
+## Test Project
 
 To test the project, run:
 
-$ npm run test
+$ npm run test   ???
 
-##TypeScript Type Definitions
+## TypeScript Type Definitions
 
-The type definitions for this package are automatically generated from the OpenAPI specs in /apis as /build/index.d.ts. We use a node script to automate this when you build the project.
+The type definitions for this package are automatically generated from the OpenAPI specs in /apis as /build/index.d.ts. ??? We use a node script to automate this when you build the project.
 
-##Commit messages
+## Commit messages
 
 Your commit messages ideally can answer two questions: what changed and why. The subject line should feature the “what” and the body of the commit should describe the “why”.
 
 When creating a pull request, its description should reference the corresponding issue id.
 
-##Sign your work / Developer certificate of origin
+## Sign your work / Developer certificate of origin
 
 All contributions (including pull requests) must agree to the Developer Certificate of Origin (DCO) version 1.1. This is exactly the same one created and used by the Linux kernel developers and posted on http://developercertificate.org/. This is a developer's certification that he or she has the right to submit the patch for inclusion into the project. Simply submitting a contribution implies this agreement, however, please include a "Signed-off-by" tag in every patch (this tag is a conventional way to confirm that you agree to the DCO) - you can automate this with a Git hook
 
 git commit -s -m "adding X to change Y"
 
-##Release Project
+## Release Project
 
 Contributor with push access to this repo can at any time make a release. To do so, just trigger the GitHub Action that releases the package. Ensure you pick the correct release type by following the semantic versioning principle.
 
